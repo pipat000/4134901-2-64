@@ -6,7 +6,7 @@ let person ={
 
     fullName : function (){
         return this.firstName + " " + this.lastName;
-    },
+    }
 };
 console.log(person);
 
@@ -42,8 +42,8 @@ const A2 = [5,6,7];
 let comArr= [A1, A2];
 console.log(comArr);
 
-comArr = [...A1, ...A2];
-console.log(comArr);
+//comArr = [...A1, ...A2];
+//console.log(comArr);
 
 sum =(...numbers) =>{
     let total = "";
